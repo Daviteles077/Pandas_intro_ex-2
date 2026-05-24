@@ -11,45 +11,45 @@ Limpeza, Transformação e Agrupamento de dados
       </linearGradient>
     </defs>
 
-    <path d="M 100 120 L 700 120" stroke="#30363d" stroke-width="4" />
+   <path d="M 100 120 L 700 120" stroke="#30363d" stroke-width="4" />
     <path d="M 100 120 L 700 120" stroke="url(#pipeline-grad)" stroke-width="4" stroke-dasharray="30 150">
       <animate attributeName="stroke-dashoffset" values="360;0" dur="4s" repeatCount="indefinite" />
     </path>
 
-    <circle cx="0" cy="0" r="6" fill="#ff5e62">
+  <circle cx="0" cy="0" r="6" fill="#ff5e62">
       <animateMotion path="M 100 120 L 700 120" dur="3s" repeatCount="indefinite" />
     </circle>
     <circle cx="0" cy="0" r="4" fill="#7f00ff">
       <animateMotion path="M 100 120 L 700 120" dur="2s" begin="0.5s" repeatCount="indefinite" />
     </circle>
 
-    <g transform="translate(200, 120)">
+   <g transform="translate(200, 120)">
       <circle cx="0" cy="0" r="24" fill="#1f2937" stroke="#ff5e62" stroke-width="3">
         <animate attributeName="r" values="24;28;24" dur="2s" repeatCount="indefinite" />
       </circle>
       <text x="0" y="5" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">🧹</text>
     </g>
 
-    <g transform="translate(400, 120)">
+  <g transform="translate(400, 120)">
       <rect x="-20" y="-20" width="40" height="40" rx="6" fill="#1f2937" stroke="#ff9966" stroke-width="3">
         <animateTransform attributeName="transform" type="rotate" values="0;180;360" dur="6s" repeatCount="indefinite" />
       </rect>
       <text x="0" y="5" font-family="Segoe UI, sans-serif" font-size="12" fill="#fff" font-weight="bold" text-anchor="middle">⚙️</text>
     </g>
 
-    <g transform="translate(600, 120)">
-      <circle cx="0" cy="0" r="24" fill="#1f2937" stroke="#7f00ff" stroke-width="3" />
+   <g transform="translate(600, 120)">
+     <circle cx="0" cy="0" r="24" fill="#1f2937" stroke="#7f00ff" stroke-width="3" />
       <circle cx="-6" cy="-6" r="4" fill="#7f00ff"><animate attributeName="cx" values="-12;-6;-12" dur="1.5s" repeatCount="indefinite"/></circle>
       <circle cx="6" cy="6" r="4" fill="#7f00ff"><animate attributeName="cy" values="12;6;12" dur="1.5s" repeatCount="indefinite"/></circle>
       <circle cx="6" cy="-6" r="4" fill="#7f00ff"/>
     </g>
 
-    <text x="50%" y="50" font-family="Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">
-      DATA PIPELINE EXPERT
+  <text x="50%" y="50" font-family="Segoe UI, sans-serif" font-size="26" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    DATA PIPELINE EXPERT
       <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite" />
     </text>
     
-    <text x="50%" y="205" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e" text-anchor="middle" letter-spacing="2">
+   <text x="50%" y="205" font-family="Segoe UI, sans-serif" font-size="14" fill="#8b949e" text-anchor="middle" letter-spacing="2">
       LIMPEZA  •  TRANSFORMAÇÃO  •  AGRUPAMENTO
     </text>
   </svg>
